@@ -73,8 +73,6 @@ int main (void)
                     employees[records].firstName,
                     employees[records].lastName);
         
-// print check to make sure each record is being read by fscanf (****for testing****)
-        // printf("\n-----------%d-----------%s, %s, %s\n", records, employees[records].employeeId, employees[records].firstName, employees[records].lastName);
 
 // check if each line has 3 fields
         if (read == 3) records++;
@@ -162,18 +160,6 @@ int main (void)
 // print each employee (for testing for full list, replace 20 with records) 
     for (int i = 0; i < records; i++)
     {
-
-// print tiers with list of winners (****for testing****)
-        // if (i==0){
-        //     printf("--------BIG WINNERS-------($%.2lf)\n\n", bigPrize);
-        // }
-        // if (i==5){
-        //     printf("\n\n--------MED WINNERS-------($%.2lf)\n\n", medPrize);
-        // }
-        // if (i==15){
-        //     printf("\n\n--------WINNERS-------($%.2lf)\n\n", smallPrize);
-        // }
-        // printf("%s, %s, %s\n", employees[i].employeeId, employees[i].firstName, employees[i].lastName);
 
 
 // write winners to new csv file
