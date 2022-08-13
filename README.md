@@ -7,5 +7,5 @@ Install gcc compiler (if not already installed).
 Navigate to the directory containing the C program.  
 Run "gcc randomDrawing.c".  
 run "./a.out".  
-follow intstuctions promtpted in the console.  
+follow intstructions promtpted in the console.  
 There is a "test.csv" file included for testing purposes. For the new test filename, I would recommend "newTest.csv".
